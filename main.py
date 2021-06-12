@@ -29,7 +29,7 @@ while essais > 0:
         if essais == 0:
             print("Vous avez perdu.")
             print("Pendez-le sur la place publique !!!")
-            print(" =============╦=  ")
+            print(" ▄▄▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄")
         if essais <= 1:
             print("   \██//      |   ")
         if essais <= 2:
@@ -41,7 +41,7 @@ while essais > 0:
         if essais <= 5:
             print("//  ██  \\         ")
         if essais <= 6:
-            print("================\n")
+            print("████████████████████")
 
     mot_a_trouver = ""
     for x in solution:
