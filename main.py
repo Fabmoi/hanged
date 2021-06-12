@@ -27,7 +27,7 @@ while essais > 0:
         essais = essais - 1
         print("===> ERREUR!\n")
         if essais == 0:
-            print("Vous avez perdu.")
+            print("Vous avez perdu. Le mot secret était " + solution + ".")
             print("Pendez-le sur la place publique !!!")
             print(" ▄▄▄▄▄▄▄▄▄▄▄▄▄█▄▄▄▄▄▄")
         if essais <= 1:
